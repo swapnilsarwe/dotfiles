@@ -78,14 +78,12 @@ cask 'font-hack'
 cask 'font-fira-code'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
+#mas 'Byword', id: 420212497
+#mas 'Giphy Capture', id: 668208984
 mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Spring', id: 1508706541
-mas 'Things', id: 904280696
+#mas 'Speedtest', id: 1153157709
+#mas 'Things', id: 904280696
+#mas 'Tweetbot', id: 1384080005
 mas 'Pocket', id: 568494494
 mas 'feedly. Read more, know more.', id: 865500966
 mas 'Trello', id: 1278508951
