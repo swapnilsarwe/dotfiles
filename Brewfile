@@ -3,11 +3,8 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
-<<<<<<< HEAD
 tap 'shivammathur/php'
 tap 'shivammathur/extensions'
-=======
->>>>>>> cd9b6f4 (added phpmon)
 
 
 # Binaries
