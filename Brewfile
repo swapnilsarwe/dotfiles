@@ -35,6 +35,7 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
+cask 'alfred'
 cask '1password'
 cask 'caffeine'
 cask 'dbngin'
