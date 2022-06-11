@@ -69,6 +69,8 @@ cask 'zoom'
 cask 'notion'
 cask 'paw'
 cask 'daisydisk'
+cask 'rectangle'
+cask 'raycast'
 
 # Quicklook
 cask 'qlmarkdown'
