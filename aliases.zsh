@@ -54,3 +54,17 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+
+# Git Alias by Sarah - https://www.netlify.com/blog/2020/04/12/speed-up-productivity-with-terminal-aliases/
+alias gi='git add -A && git commit -m'
+alias gm='git push origin master'
+alias gr='grep --color -r'
+
+
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-22.jdk/Contents/Home
+
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools

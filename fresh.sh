@@ -30,7 +30,7 @@ brew bundle --file ./Brewfile
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Create a projects directories
-mkdir $HOME/Code
+# mkdir $HOME/Code
 mkdir $HOME/Herd
 
 # Install global Composer packages
@@ -44,15 +44,15 @@ mkdir $HOME/Herd
 # $HOME/.composer/vendor/bin/global-ray install
 
 # Create a Sites directory
-mkdir $HOME/code
+# mkdir $HOME/code
 
 # Create sites subdirectories
 ## work
-mkdir $HOME/code/programmatic
-mkdir $HOME/code/cm
-mkdir $HOME/code/crm
-mkdir $HOME/code/ams
-mkdir $HOME/code/skitto
+# mkdir $HOME/code/programmatic
+# mkdir $HOME/code/cm
+# mkdir $HOME/code/crm
+# mkdir $HOME/code/ams
+# mkdir $HOME/code/skitto
 
 ## personal
 mkdir $HOME/code/swapnilsarwe
