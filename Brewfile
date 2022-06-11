@@ -75,7 +75,6 @@ cask 'daisydisk'
 cask 'rectangle'
 cask 'raycast'
 cask 'tableplus'
-# cask 'azure-data-studio'
 cask 'openvpn-connect'
 cask 'sublime-text'
 cask 'shottr'
@@ -90,6 +89,7 @@ cask 'hiddenbar'
 cask 'zulu'
 # cask 'rocket'
 cask 'google-drive'
+cask 'azure-data-studio'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -110,4 +110,6 @@ mas 'Pocket', id: 568494494
 mas 'feedly. Read more, know more.', id: 865500966
 mas 'Trello', id: 1278508951
 mas 'OneDrive', id: 823766827
-mas 'Twitter', id: 1482454543
+mas install 'Sequel Ace', id: 1518036000
+mas install 'TweetDeck by Twitter', id: 485812721
+mas install 'Twitter', id: 1482454543
