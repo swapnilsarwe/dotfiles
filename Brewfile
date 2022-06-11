@@ -3,6 +3,8 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
 
 # Binaries
 brew 'bash' # Latest Bash version
@@ -36,6 +38,7 @@ brew 'yarn'
 
 # Apps
 cask 'alfred'
+cask 'dropbox'
 cask '1password'
 cask 'caffeine'
 cask 'dbngin'
@@ -65,6 +68,7 @@ cask 'visual-studio-code'
 cask 'zoom'
 cask 'notion'
 cask 'paw'
+cask 'daisydisk'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -88,3 +92,4 @@ mas 'Spark', id: 1176895641
 mas 'Pocket', id: 568494494
 mas 'feedly. Read more, know more.', id: 865500966
 mas 'Trello', id: 1278508951
+mas 'OneDrive', id: 823766827
