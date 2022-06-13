@@ -38,6 +38,7 @@ brew 'yarn'
 
 # Apps
 cask 'alfred'
+cask 'iterm2'
 cask 'dropbox'
 cask '1password'
 cask 'caffeine'
@@ -73,6 +74,8 @@ cask 'rectangle'
 cask 'raycast'
 cask 'tableplus'
 cask 'azure-data-studio'
+cask 'openvpn-connect'
+cask 'sublime-text'
 
 # Quicklook
 cask 'qlmarkdown'
