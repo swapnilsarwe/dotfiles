@@ -90,6 +90,8 @@ cask 'zulu'
 # cask 'rocket'
 cask 'google-drive'
 cask 'azure-data-studio'
+cask 'openvpn-connect'
+cask 'sublime-text'
 
 # Quicklook
 cask 'qlmarkdown'
