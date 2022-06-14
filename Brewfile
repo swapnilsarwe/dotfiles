@@ -92,6 +92,9 @@ cask 'google-drive'
 cask 'azure-data-studio'
 cask 'openvpn-connect'
 cask 'sublime-text'
+cask 'shottr'
+cask 'microsoft-word'
+cask 'microsoft-excel'
 
 # Quicklook
 cask 'qlmarkdown'
