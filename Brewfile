@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'shivammathur/php'
 
 
 # Binaries
@@ -28,12 +29,12 @@ brew 'php@8.0'
 brew 'php@7.4'
 brew 'composer'
 brew 'imagemagick'
-brew 'meilisearch'
+# brew 'meilisearch'
 brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
-brew 'redis'
+# brew 'redis'
 brew 'yarn'
 
 # Apps
@@ -76,6 +77,9 @@ cask 'tableplus'
 cask 'azure-data-studio'
 cask 'openvpn-connect'
 cask 'sublime-text'
+cask 'shottr'
+cask 'microsoft-word'
+cask 'microsoft-excel'
 
 # Quicklook
 cask 'qlmarkdown'
