@@ -5,6 +5,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 tap 'shivammathur/php'
+tap 'shivammathur/extensions'
 
 
 # Binaries
@@ -31,7 +32,7 @@ brew 'composer'
 brew 'imagemagick'
 # brew 'meilisearch'
 brew 'memcached'
-brew 'mysql'
+# brew 'mysql'
 brew 'nginx'
 brew 'node'
 # brew 'redis'
@@ -53,7 +54,6 @@ cask 'google-chrome'
 cask 'helo'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
 cask 'phpmon'
 cask 'ray'
 cask 'readdle-spark'
@@ -80,10 +80,14 @@ cask 'sublime-text'
 cask 'shottr'
 cask 'microsoft-word'
 cask 'microsoft-excel'
+cask 'authy'
+cask 'sequel-ace'
+cask 'devtoys'
 
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
+
 
 # Fonts
 cask 'font-lato'
@@ -104,6 +108,4 @@ mas 'Pocket', id: 568494494
 mas 'feedly. Read more, know more.', id: 865500966
 mas 'Trello', id: 1278508951
 mas 'OneDrive', id: 823766827
-mas install 'Sequel Ace', id: 1518036000
-mas install 'TweetDeck by Twitter', id: 485812721
-mas install 'Twitter', id: 1482454543
+mas 'Twitter', id: 1482454543
