@@ -81,6 +81,7 @@ ZSH_CUSTOM=$DOTFILES
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.bash_aliases
 
 # User configuration
 
