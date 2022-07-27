@@ -69,11 +69,9 @@ cask 'vlc'
 cask 'zoom'
 cask 'zulu'
 
-
 # Quicklook
 cask 'qlmarkdown'
 cask 'quicklook-json'
-
 
 # Fonts
 cask 'font-lato'
