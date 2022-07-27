@@ -70,6 +70,9 @@ alias php74="phpv php@7.4"
 alias php80="phpv php@8.0"
 alias php81="phpv php"
 
+## Python
+alias python='python3'
+
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
