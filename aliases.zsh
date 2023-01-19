@@ -61,17 +61,19 @@ alias php="herd php"
 ## php
 # phpv() {
 #     valet stop
-#     brew unlink php@7.3 php@7.4 php@8.0 php@8.1
+#     brew unlink php@7.2 php@7.3 php@7.4 php@8.0 php@8.1 php@8.2
 #     brew link --force --overwrite $1
 #     brew services start $1
 #     composer global update
 # 	rm -f ~/.config/valet/valet.sock
 #     valet install
 # }
+# alias php72="phpv php@7.2"
 # alias php73="phpv php@7.3"
 # alias php74="phpv php@7.4"
 # alias php80="phpv php@8.0"
-# alias php81="phpv php"
+# alias php81="phpv php@8.1"
+# alias php82="phpv php@8.2"
 
 ## Python
 alias python='python3'
