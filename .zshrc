@@ -115,3 +115,5 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+source /Users/swapnil.s/.docker/init-zsh.sh || true # Added by Docker Desktop
