@@ -7,7 +7,7 @@ alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias codetree="cd ~/code && tree -L 3"
 alias octal="stat -f '%A %a %N'"
-alias pyser="python -m SimpleHTTPServer"
+alias pyser="python3 -m http.server"
 
 # Shortcuts
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"

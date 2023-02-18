@@ -24,9 +24,7 @@ brew 'htop'
 
 
 # Development
-brew 'composer'
 brew 'imagemagick'
-brew 'memcached'
 brew 'yarn'
 
 # Apps
