@@ -27,6 +27,9 @@ alias dev="cd $HOME/code"
 # alias lara="sites && cd laravel/"
 # alias docs="lara && cd docs/"
 
+## bladeicons
+alias iconsetup='php artisan icons:cache && php artisan icons:import && php artisan scout:import "App\\Models\\Icon"'
+
 ## composer
 alias cu='composer update'
 alias cui='composer update --ignore-platform-reqs'
