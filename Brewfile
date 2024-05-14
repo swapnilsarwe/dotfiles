@@ -12,7 +12,7 @@ brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-brew 'gh'
+# brew 'gh'
 brew 'git'
 brew 'grep'
 brew 'httpie'
@@ -25,11 +25,26 @@ brew 'htop'
 
 # Development
 brew 'imagemagick'
+<<<<<<< HEAD
 brew 'yarn'
 
 # Apps
 cask 'authy'
 cask 'azure-data-studio'
+=======
+# brew 'meilisearch'
+brew 'memcached'
+# brew 'mysql'
+# brew 'node'
+# brew 'redis'
+brew 'yarn'
+
+# Apps
+# cask 'alfred'
+cask 'iterm2'
+cask 'dropbox'
+# cask '1password'
+>>>>>>> f5e4da6 (updated required apps)
 cask 'caffeine'
 cask 'daisydisk'
 cask 'dbngin'
@@ -50,8 +65,13 @@ cask 'notion'
 cask 'openvpn-connect'
 cask 'paw'
 cask 'raycast'
+<<<<<<< HEAD
 cask 'rectangle'
 cask 'rocket'
+=======
+# cask 'readdle-spark'
+# cask 'phpstorm'
+>>>>>>> f5e4da6 (updated required apps)
 cask 'screenflow'
 cask 'sequel-ace'
 cask 'shottr'
@@ -63,9 +83,32 @@ cask 'tinkerwell'
 cask 'transmit'
 cask 'tuple'
 cask 'visual-studio-code'
+<<<<<<< HEAD
 cask 'vlc'
 cask 'zoom'
 cask 'zulu'
+=======
+cask 'zoom'
+# cask 'notion'
+cask 'paw'
+cask 'daisydisk'
+# cask 'rectangle'
+cask 'raycast'
+cask 'tableplus'
+# cask 'azure-data-studio'
+cask 'openvpn-connect'
+cask 'sublime-text'
+cask 'shottr'
+# cask 'microsoft-word'
+# cask 'microsoft-excel'
+cask 'authy'
+cask 'sequel-ace'
+cask 'devtoys'
+# cask 'rocket'
+# cask 'vlc'
+cask 'hiddenbar'
+cask 'zulu11'
+>>>>>>> f5e4da6 (updated required apps)
 
 # Quicklook
 cask 'qlmarkdown'
