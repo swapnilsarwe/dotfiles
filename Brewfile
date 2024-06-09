@@ -5,7 +5,7 @@ tap 'homebrew/bundle'
 tap 'stripe/stripe-cli'
 
 # Binaries
-brew 'awscli'
+# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
@@ -18,9 +18,11 @@ brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
+# brew 'stripe/stripe-cli/stripe'
+# brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
+brew 'ncdu'
+brew 'htop'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -34,10 +36,10 @@ brew 'imagemagick'
 brew 'yarn'
 
 # Apps
-cask '1password'
+# cask '1password'
 cask 'caffeine'
 cask 'discord'
-cask 'docker'
+cask 'orbstack'
 cask 'figma'
 cask 'firefox'
 cask 'github'
@@ -46,7 +48,7 @@ cask 'helo'
 cask 'herd'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'pastebot'
+# cask 'pastebot'
 cask 'readdle-spark'
 cask 'screenflow'
 cask 'slack'
@@ -59,6 +61,19 @@ cask 'tunnelbear'
 cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
+cask 'daisydisk'
+cask 'dbngin'
+cask 'devtoys'
+cask 'dropbox'
+cask 'google-drive'
+cask 'hiddenbar'
+cask 'iterm2'
+cask 'notion'
+cask 'paw'
+cask 'raycast'
+cask 'rectangle'
+cask 'shottr'
+cask 'zulu'
 
 # Quicklook
 cask 'qlmarkdown'
@@ -68,17 +83,13 @@ cask 'quicklook-json'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+cask 'font-cascadia-code'
+cask 'font-hack'
+cask 'font-fira-code'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'MyWoosh', id: 1498889644
-mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
-mas 'Spring', id: 1508706541
-mas 'Things', id: 904280696
+mas 'Pocket', id: 568494494
+mas 'feedly. Read more, know more.', id: 865500966
+mas 'Trello', id: 1278508951
+mas 'OneDrive', id: 823766827
+mas 'Twitter', id: 1482454543
