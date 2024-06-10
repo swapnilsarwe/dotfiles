@@ -7,6 +7,7 @@ SITES=$HOME/Herd
 BLADE_ICONS=$CODE/blade-icons
 CODEAT3=$CODE/codeat3
 SWAPNILSARWE=$CODE/swapnilsarwe
+TALKSATCONFS=$CODE/talksatconfs
 
 # Sites
 

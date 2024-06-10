@@ -109,6 +109,14 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-22.jdk/Contents/Home
+
+# https://reactnative.dev/docs/set-up-your-environment?platform=android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Herd injected PHP binary.
 export PHP_INI_SCAN_DIR="$HOME/Library/Application Support/Herd/config/php/":$PHP_INI_SCAN_DIR
 

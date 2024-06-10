@@ -78,6 +78,7 @@ cask 'arc'
 cask 'jetbrains-toolbox'
 cask 'monitorcontrol'
 cask 'sublime-text'
+cask 'orbstack'
 
 # Quicklook
 cask 'qlmarkdown'

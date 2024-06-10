@@ -11,7 +11,7 @@ alias version="commit 'version'"
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias projects="cd $HOME/Code"
+alias dev="cd $HOME/Code"
 alias sites="cd $HOME/Herd"
 
 # Laravel
@@ -39,7 +39,6 @@ alias gb="git branch"
 alias gco="git checkout"
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
-alias gi="git add . && git commit -m"
 alias diff="git diff"
 alias force="git push --force-with-lease"
 alias nah="git clean -df && git reset --hard"
@@ -49,3 +48,7 @@ alias resolve="git add . && git commit --no-edit"
 alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
+
+# Git Alias by Sarah - https://www.netlify.com/blog/2020/04/12/speed-up-productivity-with-terminal-aliases/
+alias gi='git add -A && git commit -m'
+alias gr='grep --color -r'
