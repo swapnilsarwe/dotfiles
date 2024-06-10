@@ -20,22 +20,22 @@ rm -rf $HOME/.zshrc
 ln -sw $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Update Homebrew recipes
-brew update
+# brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-brew tap homebrew/bundle
-brew bundle --file ./Brewfile
+# brew tap homebrew/bundle
+# brew bundle --file ./Brewfile
 
 # Set default MySQL root password and auth type
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+# mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Create a projects directories
 mkdir $HOME/code
 mkdir $HOME/Herd
 
 # Create Code subdirectories
-mkdir $HOME/Code/blade-ui-kit
-mkdir $HOME/Code/laravel
+# mkdir $HOME/Code/blade-ui-kit
+# mkdir $HOME/Code/laravel
 
 # Clone Github repositories
 ./clone.sh

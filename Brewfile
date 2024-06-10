@@ -74,6 +74,10 @@ cask 'raycast'
 cask 'rectangle'
 cask 'shottr'
 cask 'zulu'
+cask 'arc'
+cask 'jetbrains-toolbox'
+cask 'monitorcontrol'
+cask 'sublime-text'
 
 # Quicklook
 cask 'qlmarkdown'
