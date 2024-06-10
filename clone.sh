@@ -17,6 +17,9 @@ git clone git@github.com:talksatconfs/talksatconfs.com.git $SITES/talksatconfs.c
 git clone git@github.com:sarwe-in/nikita.sarwe.in.git $SITES/nikita.sarwe.in
 git clone git@github.com:sarwe-in/nishwa.sarwe.in.git $SITES/nishwa.sarwe.in
 git clone git@github.com:sarwe-in/swapnil.sarwe.in.git $SITES/swapnil.sarwe.in
+git clone git@github.com:swapnilsarwe/blade-ui-kit.com.git $SITES/blade-ui-kit.com
+git clone git@github.com:swapnilsarwe/swapnilsarwe.com.git $SITES/swapnilsarwe.com
+git clone git@github.com:swapnilsarwe/blog.swapnilsarwe.com.git $SITES/blog.swapnilsarwe.com
 
 # Personal
 
