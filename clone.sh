@@ -8,14 +8,22 @@ BLADE_ICONS=$CODE/blade-icons
 CODEAT3=$CODE/codeat3
 SWAPNILSARWE=$CODE/swapnilsarwe
 TALKSATCONFS=$CODE/talksatconfs
+SARWEIN=$CODE/sarwe-in
 
 # Sites
+git clone git@github.com:codeat3/blade-icons-packages.git $SITES/blade-icons-packages
+git clone git@github.com:codeat3/codeat3.co.git $SITES/codeat3.co
+git clone git@github.com:talksatconfs/talksatconfs.com.git $SITES/talksatconfs.com
+git clone git@github.com:sarwe-in/nikita.sarwe.in.git $SITES/nikita.sarwe.in
+git clone git@github.com:sarwe-in/nishwa.sarwe.in.git $SITES/nishwa.sarwe.in
+git clone git@github.com:sarwe-in/swapnil.sarwe.in.git $SITES/swapnil.sarwe.in
 
 # Personal
 
-# Blade UI Kit
+# Sarwe
 
-# Laravel
+# Talks at Confs
+git clone git@github.com:talksatconfs/talksatconfs-data.git $TALKSATCONFS/talksatconfs-data
 
 # Blade Icons
 git clone git@github.com:codeat3/blade-academicons.git $BLADE_ICONS/blade-academicons
