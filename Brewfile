@@ -79,6 +79,7 @@ cask 'jetbrains-toolbox'
 cask 'monitorcontrol'
 cask 'sublime-text'
 cask 'microsoft-teams'
+cask 'obsidian'
 
 # Quicklook
 cask 'qlmarkdown'

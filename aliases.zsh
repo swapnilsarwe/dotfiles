@@ -52,3 +52,8 @@ alias wip="commit wip"
 # Git Alias by Sarah - https://www.netlify.com/blog/2020/04/12/speed-up-productivity-with-terminal-aliases/
 alias gi='git add -A && git commit -m'
 alias gr='grep --color -r'
+
+# Personal
+alias ci='composer install'
+alias cu='composer update'
+alias cr='composer require'
