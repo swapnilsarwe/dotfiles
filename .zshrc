@@ -144,3 +144,6 @@ export HERD_PHP_80_INI_SCAN_DIR="/Users/swapnilsarwe/Library/Application Support
 
 # Herd injected PHP binary.
 export PATH="/Users/swapnilsarwe/Library/Application Support/Herd/bin/":$PATH
+
+# symfony installer: https://symfony.com/download
+export PATH="$HOME/.symfony5/bin:$PATH"

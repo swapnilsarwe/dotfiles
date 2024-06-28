@@ -57,3 +57,6 @@ alias gr='grep --color -r'
 alias ci='composer install'
 alias cu='composer update'
 alias cr='composer require'
+
+# Python
+alias python='python3'

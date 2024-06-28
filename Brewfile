@@ -80,6 +80,9 @@ cask 'monitorcontrol'
 cask 'sublime-text'
 cask 'microsoft-teams'
 cask 'obsidian'
+cask 'gimp'
+cask 'whatsapp'
+cask 'vlc'
 
 # Quicklook
 cask 'qlmarkdown'
